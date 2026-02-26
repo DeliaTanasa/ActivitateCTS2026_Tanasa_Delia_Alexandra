@@ -1,4 +1,4 @@
-package ro.ase.cts;
+package ro.ase.cts.main;
 
 import ro.ase.cts.animale.Lion;
 import ro.ase.cts.animale.Vidra;
@@ -6,7 +6,8 @@ import ro.ase.cts.animale.Zebra;
 import ro.ase.cts.zoo.ZOO;
 import ro.ase.cts.zoo.ZooKeeper;
 
-public class Seminar1 {
+public class
+Seminar1 {
     public static void main(String args[]){
         ZooKeeper zooKeeper=new ZooKeeper(
                 "Popescu"
