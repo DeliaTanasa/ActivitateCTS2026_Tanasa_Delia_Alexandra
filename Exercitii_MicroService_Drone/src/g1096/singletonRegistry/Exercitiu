@@ -1,0 +1,10 @@
+Ești dezvoltator software la o companie care produce drone comerciale. Lucrezi la
+software-ul pentru drone și trebuie să implementezi diferite module conform
+următoarelor cerințe:
+
+2. În backend, trebuie să gestionezi conexiunea către diferite microservicii REST API,
+cum ar fi serviciul de utilizatori, serviciul de date meteo, serviciul cu date de
+fabricație, etc. Fiecare serviciu are un nume unic și o adresă URL asociată, bazate
+pe clasa AbstractMicroService. De asemenea, fiecare serviciu acceptă o
+singură conexiune de la fiecare client. Implementează o clasă care va gestiona
+conexiunile unice pentru microservicii, extinzând AbstractMicroService.
