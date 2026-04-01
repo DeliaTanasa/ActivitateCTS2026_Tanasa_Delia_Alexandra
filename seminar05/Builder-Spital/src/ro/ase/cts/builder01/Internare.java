@@ -15,7 +15,7 @@ public class Internare{
         numePacient="";
     }
 
-    public Internare( String numePacient,boolean patRabatabil, boolean micDejunInclus, boolean papuciCamera, boolean halat) {
+    protected Internare( String numePacient,boolean patRabatabil, boolean micDejunInclus, boolean papuciCamera, boolean halat) {
         this.numePacient=numePacient;
         this.patRabatabil = patRabatabil;
         this.micDejunInclus = micDejunInclus;

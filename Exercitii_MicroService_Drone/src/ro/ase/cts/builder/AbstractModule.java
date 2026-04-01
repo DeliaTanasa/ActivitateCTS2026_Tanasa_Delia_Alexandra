@@ -1,4 +1,4 @@
-package g1096.builder;
+package ro.ase.cts.builder;
 
 public abstract class AbstractModule {
     protected String name;

@@ -1,4 +1,4 @@
-package g1096.builder;
+package ro.ase.cts.builder;
 
 public class ExtraBattery extends AbstractModule{
 

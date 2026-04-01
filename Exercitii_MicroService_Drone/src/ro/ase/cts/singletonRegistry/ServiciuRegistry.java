@@ -1,4 +1,4 @@
-package g1096.singletonRegistry;
+package ro.ase.cts.singletonRegistry;
 
 import java.util.HashMap;
 import java.util.Map;

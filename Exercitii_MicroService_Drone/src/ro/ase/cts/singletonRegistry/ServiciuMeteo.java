@@ -1,4 +1,4 @@
-package g1096.singletonRegistry;
+package ro.ase.cts.singletonRegistry;
 
 public class ServiciuMeteo extends AbstractMicroService{
     public ServiciuMeteo(String name, String url) {

@@ -8,7 +8,8 @@ import ro.ase.cts.builder02.InternareBuilder02;
 
 public class Main {
     public static void main(String[] args) {
-        Internare internare1=new Internare();
+        //de intrebat aici despre constructor
+        Internare internare1=new InternareBuilder("Georgel").build();//tre sa fac asa daca am constructoru privat
         internare1.setNumePacient("Gerogel");
         internare1.setPatRabatabil(true);
 

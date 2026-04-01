@@ -1,4 +1,4 @@
-package g1096.singletonRegistry;
+package ro.ase.cts.singletonRegistry;
 
 public abstract class AbstractMicroService {
     protected String serviceName;

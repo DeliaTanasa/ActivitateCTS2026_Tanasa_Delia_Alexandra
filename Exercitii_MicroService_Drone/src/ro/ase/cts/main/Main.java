@@ -1,4 +1,4 @@
-package g1096.main;
+package ro.ase.cts.main;
 
 import cts.tanasa.delia.g1096.builder.Drone;
 import cts.tanasa.delia.g1096.builder.DroneBuilder;

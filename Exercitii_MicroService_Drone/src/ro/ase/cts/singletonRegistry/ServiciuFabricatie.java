@@ -1,7 +1,7 @@
-package g1096.singletonRegistry;
+package ro.ase.cts.singletonRegistry;
 
-public class ServiciuUtilizatori extends AbstractMicroService{
-    public ServiciuUtilizatori(String name, String url) {
+public class ServiciuFabricatie extends AbstractMicroService{
+    public ServiciuFabricatie(String name, String url) {
         super(name, url);
     }
 
@@ -12,7 +12,7 @@ public class ServiciuUtilizatori extends AbstractMicroService{
 
     @Override
     public String toString() {
-        return "ServiciuUtilizatori{" +
+        return "ServiciuFabricatie{" +
                 "serviceName='" + serviceName + '\'' +
                 ", serviceUrl='" + serviceUrl + '\'' +
                 '}';

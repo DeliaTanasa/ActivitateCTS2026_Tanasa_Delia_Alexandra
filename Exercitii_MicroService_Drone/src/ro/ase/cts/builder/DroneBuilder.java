@@ -1,4 +1,4 @@
-package g1096.builder;
+package ro.ase.cts.builder;
 
 public class DroneBuilder {
     private String model;
