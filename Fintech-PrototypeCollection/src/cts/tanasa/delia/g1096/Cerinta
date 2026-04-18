@@ -1,0 +1,4 @@
+Lucrați ca programator la un start-up din domeniul fintech.
+- Realizați faptul că la crearea unui cont de economii aplicația mobilă așteaptă foarte mult răspunsul de la backend deoarece sunt multe setări inițiale de făcut (rata dobânzii, perioada, calcul scadențar, etc). Știind că orice cont de economii derivează clasa Account (vezi verso), utilizați un design pattern ce rezolvă această problemă prin crearea unor conturi de economii prestabilite (ex: Personal Savings Account - fără perioadă prestabilită, dobândă 2%; Annual Savings Account - perioada 1 an, rata dobânzii 5%, etc.) ce pot fi reutilizate apoi cu ușurință.
+
+- Testați implementarea prin crearea a cel puțin trei conturi de economii din lista prestabilită (pot fi de același tip sau diferite). Demonstrați faptul că schimbarea titularului unui cont bancar de un anumit tip, nu le afectează pe cele de același tip.

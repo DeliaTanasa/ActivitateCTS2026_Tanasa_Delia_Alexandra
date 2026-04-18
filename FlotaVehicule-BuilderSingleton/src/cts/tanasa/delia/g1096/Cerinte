@@ -1,0 +1,13 @@
+Compania dvs. a fost contractată pentru dezvoltarea unui sistem de management al unei flote de vehicule autonome pentru o companie de livrări. Sistemul trebuie să gestioneze crearea și configurarea vehiculelor, precum și monitorizarea acestora dintr-un centru de comandă unic.
+
+- Centrul de comandă al flotei este o componentă critică a sistemului. Toate vehiculele raportează statusul către același centru, iar deciziile de rutare trebuie luate centralizat. Totuși, compania operează în mai multe orașe, iar fiecare oraș are propriul centru de comandă. Sistemul trebuie să permită obținerea centrului de comandă specific unui oraș fără a permite crearea de instanțe duplicate pentru același oraș. Centrul de comandă derivează interfața ICentru (vezi verso) și implementează metodele conform comentariilor. Clasa trebuie să conțină următoarele atribute:
+
+Numar de vehicule
+
+Numele orasului de care apartine centrul de comanda
+
+- Testează aplicația prin obținerea centrelor de comandă pentru 3 orașe diferite. Demonstrează că pentru același oraș se returnează mereu aceeași instanță, iar pentru orașe diferite se returnează instanțe distincte.
+
+- Vehiculele autonome din flotă sunt extrem de complexe și au numeroase componente configurabile: tip motor (electric/hidrogen), capacitate baterie, senzori LiDAR, cameră, GPS, capacitate de încărcare și nivel de autonomie (permite doar valorile: L3, L4, L5). Crearea unui vehicul necesită configurarea pas cu pas a tuturor acestor componente, astfel încât flota să poată fi cât mai diversă. Procesul de construcție trebuie să permită configurarea flexibilă a componentelor și validarea finală la momentul creării obiectului: un motor electric nu permite un nivel de autonomie L5. Din motive de siguranță, un vehicul odată construit se sigilează și nu mai poate fi modificat.
+
+- Testează aplicația prin construirea a 3 vehicule cu configurații diferite. Demonstrează că procesul de construcție permite crearea vehiculelor pas cu pas și că obiectele rezultate sunt corect configurate.

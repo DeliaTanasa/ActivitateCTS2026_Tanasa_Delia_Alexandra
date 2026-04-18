@@ -1,4 +1,4 @@
-package ro.ase.cts.singleton.lazySingleton;
+package cts.tanasa.delia.g1096.singleton.lazy2;
 
 public class Hotel {
     private static Hotel instanta=null;
