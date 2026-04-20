@@ -1,0 +1,7 @@
+Magazinul online dorește să comercializeze o gamă largă de produse prin intermediul platformei. Astfel sunt luate în considerare Produse Perisabile, Produse Electronice și Produse Bio. Soluția trebuie să permită generarea facilă de instanțe din această familie de clase. Se ia în calcul că toate produsele au în comun interfața ProdusGeneric.
+
+Să se testeze soluția prin generarea de obiecte diferite aparținând familiei de Produse (cel puțin un obiect pentru fiecare tip)
+
+În cadrul platformei trebuie avut grijă ca un produs să existe o singură dată, dar avem mai multe produse. Unicitatea se asigură la nivelul numelui produsului. În acest mod magazinul evită ca un produs să apară de mai multe ori pe platformă. În cazul în care se dorește adăugarea unui produs care există deja pe platformă se va modifica stocul acestuia. Produsul trebuie să implementeze interfața ProdusGeneric.
+
+Să se testeze soluția prin crearea a cel puțin patru obiecte pentru prezentarea avantajelor design pattern-ului implementat.
