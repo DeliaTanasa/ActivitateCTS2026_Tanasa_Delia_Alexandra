@@ -1,4 +1,4 @@
-package ro.ase.cts.clase.main;
+package ro.ase.cts.main;
 
 import ro.ase.cts.clase.spital.Medicament;
 import ro.ase.cts.clase.spital.MedicamentAdapter;
