@@ -1,6 +1,5 @@
 package ro.ase.cts.main;
 
-import ro.ase.cts.clase.Angajat;
 import ro.ase.cts.clase.Aplicant;
 import ro.ase.cts.clase.loaders.AngajatiLoader;
 import ro.ase.cts.clase.loaders.AplicantiLoader;

@@ -1,9 +1,10 @@
 package ro.ase.cts.main;
 
-import cts.tanasa.delia.g1096.builder.Drone;
-import cts.tanasa.delia.g1096.builder.DroneBuilder;
-import cts.tanasa.delia.g1096.builder.ExtraBattery;
+import ro.ase.cts.builder.Drone;
+import ro.ase.cts.builder.DroneBuilder;
+import ro.ase.cts.builder.ExtraBattery;
 import cts.tanasa.delia.g1096.singletonRegistry.*;
+import ro.ase.cts.singletonRegistry.*;
 
 public class Main {
     public static void main(String[] args) throws Exception {
