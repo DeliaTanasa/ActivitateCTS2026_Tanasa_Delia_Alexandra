@@ -1,0 +1,13 @@
+package ro.ase.cts.clase;
+
+public class Hotel {
+    private String numeHotel;
+
+    public Hotel(String numeHotel) {
+        this.numeHotel = numeHotel;
+    }
+
+    public void rezervaCamera(String oras){
+        System.out.println("S a rezervat o camera la hotelul "+this.numeHotel+" din orasul "+oras);
+    }
+}
